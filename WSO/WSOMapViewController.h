@@ -1,5 +1,5 @@
 //
-//  WSOFirstViewController.h
+//  WSOMapViewController.h
 //  WSO
 //
 //  Created by Aaron Taylor on 5/4/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WSOFirstViewController : UIViewController
+@interface WSOMapViewController : UIViewController
 
 @end

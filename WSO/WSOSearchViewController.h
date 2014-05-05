@@ -1,5 +1,5 @@
 //
-//  WSOSecondViewController.h
+//  WSOSearchViewController.h
 //  WSO
 //
 //  Created by Aaron Taylor on 5/4/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WSOSecondViewController : UIViewController
+@interface WSOSearchViewController : UIViewController
 
 @end

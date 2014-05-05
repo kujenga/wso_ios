@@ -6,13 +6,16 @@
 //  Copyright (c) 2014 Williams Students Online. All rights reserved.
 //
 
-#import "WSOSecondViewController.h"
+#import "WSOSearchViewController.h"
 
-@interface WSOSecondViewController ()
+@interface WSOSearchViewController ()
+
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
+@property (weak, nonatomic) IBOutlet UITableView *resultsTableView;
 
 @end
 
-@implementation WSOSecondViewController
+@implementation WSOSearchViewController
 
 - (void)viewDidLoad
 {

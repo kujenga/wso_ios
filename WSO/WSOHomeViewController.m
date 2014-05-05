@@ -1,18 +1,18 @@
 //
-//  WSOFirstViewController.m
+//  WSOHomeViewController.m
 //  WSO
 //
 //  Created by Aaron Taylor on 5/4/14.
 //  Copyright (c) 2014 Williams Students Online. All rights reserved.
 //
 
-#import "WSOFirstViewController.h"
+#import "WSOHomeViewController.h"
 
-@interface WSOFirstViewController ()
+@interface WSOHomeViewController ()
 
 @end
 
-@implementation WSOFirstViewController
+@implementation WSOHomeViewController
 
 - (void)viewDidLoad
 {

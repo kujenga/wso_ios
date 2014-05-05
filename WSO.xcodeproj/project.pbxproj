@@ -14,14 +14,21 @@
 		86319BF51917419100004C12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86319BF41917419100004C12 /* main.m */; };
 		86319BF91917419100004C12 /* WSOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86319BF81917419100004C12 /* WSOAppDelegate.m */; };
 		86319BFC1917419100004C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86319BFA1917419100004C12 /* Main.storyboard */; };
-		86319BFF1917419100004C12 /* WSOFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86319BFE1917419100004C12 /* WSOFirstViewController.m */; };
-		86319C021917419100004C12 /* WSOSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86319C011917419100004C12 /* WSOSecondViewController.m */; };
+		86319BFF1917419100004C12 /* WSOHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86319BFE1917419100004C12 /* WSOHomeViewController.m */; };
+		86319C021917419100004C12 /* WSOSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86319C011917419100004C12 /* WSOSearchViewController.m */; };
 		86319C041917419100004C12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86319C031917419100004C12 /* Images.xcassets */; };
 		86319C0B1917419100004C12 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86319C0A1917419100004C12 /* XCTest.framework */; };
 		86319C0C1917419100004C12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86319BE81917419100004C12 /* Foundation.framework */; };
 		86319C0D1917419100004C12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86319BEC1917419100004C12 /* UIKit.framework */; };
 		86319C151917419100004C12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86319C131917419100004C12 /* InfoPlist.strings */; };
 		86319C171917419100004C12 /* WSOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86319C161917419100004C12 /* WSOTests.m */; };
+		86319C221917438700004C12 /* WSOMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86319C211917438700004C12 /* WSOMapViewController.m */; };
+		86319C261917446000004C12 /* Map alt 32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 86319C251917446000004C12 /* Map alt 32x32.png */; };
+		86319C281917448200004C12 /* Home 32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 86319C271917448200004C12 /* Home 32x32.png */; };
+		86319C2B191744F700004C12 /* Info 32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 86319C2A191744F700004C12 /* Info 32x32.png */; };
+		86319C2D1917455600004C12 /* Search 32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 86319C2C1917455600004C12 /* Search 32x32.png */; };
+		86319C30191746E200004C12 /* WSOTrakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86319C2F191746E200004C12 /* WSOTrakViewController.m */; };
+		86319C321917488B00004C12 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86319C311917488B00004C12 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +53,25 @@
 		86319BF71917419100004C12 /* WSOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSOAppDelegate.h; sourceTree = "<group>"; };
 		86319BF81917419100004C12 /* WSOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSOAppDelegate.m; sourceTree = "<group>"; };
 		86319BFB1917419100004C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		86319BFD1917419100004C12 /* WSOFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSOFirstViewController.h; sourceTree = "<group>"; };
-		86319BFE1917419100004C12 /* WSOFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSOFirstViewController.m; sourceTree = "<group>"; };
-		86319C001917419100004C12 /* WSOSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSOSecondViewController.h; sourceTree = "<group>"; };
-		86319C011917419100004C12 /* WSOSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSOSecondViewController.m; sourceTree = "<group>"; };
+		86319BFD1917419100004C12 /* WSOHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSOHomeViewController.h; sourceTree = "<group>"; };
+		86319BFE1917419100004C12 /* WSOHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSOHomeViewController.m; sourceTree = "<group>"; };
+		86319C001917419100004C12 /* WSOSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSOSearchViewController.h; sourceTree = "<group>"; };
+		86319C011917419100004C12 /* WSOSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSOSearchViewController.m; sourceTree = "<group>"; };
 		86319C031917419100004C12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		86319C091917419100004C12 /* WSOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86319C0A1917419100004C12 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		86319C121917419100004C12 /* WSOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WSOTests-Info.plist"; sourceTree = "<group>"; };
 		86319C141917419100004C12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		86319C161917419100004C12 /* WSOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSOTests.m; sourceTree = "<group>"; };
+		86319C201917438700004C12 /* WSOMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOMapViewController.h; sourceTree = "<group>"; };
+		86319C211917438700004C12 /* WSOMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOMapViewController.m; sourceTree = "<group>"; };
+		86319C251917446000004C12 /* Map alt 32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map alt 32x32.png"; sourceTree = "<group>"; };
+		86319C271917448200004C12 /* Home 32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home 32x32.png"; sourceTree = "<group>"; };
+		86319C2A191744F700004C12 /* Info 32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Info 32x32.png"; sourceTree = "<group>"; };
+		86319C2C1917455600004C12 /* Search 32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search 32x32.png"; sourceTree = "<group>"; };
+		86319C2E191746E200004C12 /* WSOTrakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOTrakViewController.h; sourceTree = "<group>"; };
+		86319C2F191746E200004C12 /* WSOTrakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOTrakViewController.m; sourceTree = "<group>"; };
+		86319C311917488B00004C12 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86319C321917488B00004C12 /* MapKit.framework in Frameworks */,
 				86319BEB1917419100004C12 /* CoreGraphics.framework in Frameworks */,
 				86319BED1917419100004C12 /* UIKit.framework in Frameworks */,
 				86319BE91917419100004C12 /* Foundation.framework in Frameworks */,
@@ -104,6 +121,7 @@
 		86319BE71917419100004C12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				86319C311917488B00004C12 /* MapKit.framework */,
 				86319BE81917419100004C12 /* Foundation.framework */,
 				86319BEA1917419100004C12 /* CoreGraphics.framework */,
 				86319BEC1917419100004C12 /* UIKit.framework */,
@@ -118,11 +136,16 @@
 				86319BF71917419100004C12 /* WSOAppDelegate.h */,
 				86319BF81917419100004C12 /* WSOAppDelegate.m */,
 				86319BFA1917419100004C12 /* Main.storyboard */,
-				86319BFD1917419100004C12 /* WSOFirstViewController.h */,
-				86319BFE1917419100004C12 /* WSOFirstViewController.m */,
-				86319C001917419100004C12 /* WSOSecondViewController.h */,
-				86319C011917419100004C12 /* WSOSecondViewController.m */,
+				86319BFD1917419100004C12 /* WSOHomeViewController.h */,
+				86319BFE1917419100004C12 /* WSOHomeViewController.m */,
+				86319C001917419100004C12 /* WSOSearchViewController.h */,
+				86319C011917419100004C12 /* WSOSearchViewController.m */,
+				86319C201917438700004C12 /* WSOMapViewController.h */,
+				86319C211917438700004C12 /* WSOMapViewController.m */,
+				86319C2E191746E200004C12 /* WSOTrakViewController.h */,
+				86319C2F191746E200004C12 /* WSOTrakViewController.m */,
 				86319C031917419100004C12 /* Images.xcassets */,
+				86319C291917449200004C12 /* icons */,
 				86319BEF1917419100004C12 /* Supporting Files */,
 			);
 			path = WSO;
@@ -155,6 +178,17 @@
 				86319C131917419100004C12 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86319C291917449200004C12 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				86319C251917446000004C12 /* Map alt 32x32.png */,
+				86319C271917448200004C12 /* Home 32x32.png */,
+				86319C2A191744F700004C12 /* Info 32x32.png */,
+				86319C2C1917455600004C12 /* Search 32x32.png */,
+			);
+			name = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +268,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86319C2D1917455600004C12 /* Search 32x32.png in Resources */,
+				86319C281917448200004C12 /* Home 32x32.png in Resources */,
+				86319C2B191744F700004C12 /* Info 32x32.png in Resources */,
+				86319C261917446000004C12 /* Map alt 32x32.png in Resources */,
 				86319C041917419100004C12 /* Images.xcassets in Resources */,
 				86319BF31917419100004C12 /* InfoPlist.strings in Resources */,
 				86319BFC1917419100004C12 /* Main.storyboard in Resources */,
@@ -255,9 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86319C021917419100004C12 /* WSOSecondViewController.m in Sources */,
-				86319BFF1917419100004C12 /* WSOFirstViewController.m in Sources */,
+				86319C221917438700004C12 /* WSOMapViewController.m in Sources */,
+				86319C021917419100004C12 /* WSOSearchViewController.m in Sources */,
+				86319BFF1917419100004C12 /* WSOHomeViewController.m in Sources */,
 				86319BF91917419100004C12 /* WSOAppDelegate.m in Sources */,
+				86319C30191746E200004C12 /* WSOTrakViewController.m in Sources */,
 				86319BF51917419100004C12 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +503,7 @@
 				86319C1C1917419100004C12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86319C1D1917419100004C12 /* Build configuration list for PBXNativeTarget "WSOTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +512,7 @@
 				86319C1F1917419100004C12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
