@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86005EA81917BB5900CF87EF /* 07-map-marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86005EA71917BB5900CF87EF /* 07-map-marker@2x.png */; };
+		86005EAA1917BB6C00CF87EF /* 103-map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86005EA91917BB6C00CF87EF /* 103-map@2x.png */; };
+		86005EAC1917BB8400CF87EF /* glyphicons_020_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86005EAB1917BB8400CF87EF /* glyphicons_020_home@2x.png */; };
+		86005EAE1917BBA000CF87EF /* glyphicons_195_circle_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86005EAD1917BBA000CF87EF /* glyphicons_195_circle_info@2x.png */; };
+		86005EB11917BBC200CF87EF /* glyphicons_027_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86005EB01917BBC200CF87EF /* glyphicons_027_search@2x.png */; };
+		86005EB41917BBDD00CF87EF /* Map alt 48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = 86005EB31917BBDD00CF87EF /* Map alt 48x48.png */; };
+		86005EB61917BBE900CF87EF /* Home 48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = 86005EB51917BBE900CF87EF /* Home 48x48.png */; };
+		86005EB81917BBF600CF87EF /* Info 48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = 86005EB71917BBF600CF87EF /* Info 48x48.png */; };
+		86005EBA1917BC0100CF87EF /* Search 48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = 86005EB91917BC0100CF87EF /* Search 48x48.png */; };
+		86005EBC1917C80000CF87EF /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86005EBB1917C80000CF87EF /* GoogleMaps.framework */; };
+		86005EBE1917C83A00CF87EF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86005EBD1917C83A00CF87EF /* AVFoundation.framework */; };
+		86005EC01917C84000CF87EF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86005EBF1917C84000CF87EF /* CoreData.framework */; };
+		86005EC21917C84600CF87EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86005EC11917C84600CF87EF /* CoreLocation.framework */; };
+		86005EC41917C85000CF87EF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86005EC31917C85000CF87EF /* CoreText.framework */; };
+		86005EC61917C85600CF87EF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86005EC51917C85600CF87EF /* GLKit.framework */; };
+		86005EC81917C85C00CF87EF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86005EC71917C85C00CF87EF /* ImageIO.framework */; };
+		86005ECA1917C86F00CF87EF /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 86005EC91917C86F00CF87EF /* libc++.dylib */; };
+		86005ECC1917C88000CF87EF /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 86005ECB1917C88000CF87EF /* libicucore.dylib */; };
+		86005ECE1917C89500CF87EF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 86005ECD1917C89500CF87EF /* libz.dylib */; };
+		86005ED01917C89B00CF87EF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86005ECF1917C89B00CF87EF /* OpenGLES.framework */; };
+		86005ED21917C8A700CF87EF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86005ED11917C8A700CF87EF /* QuartzCore.framework */; };
+		86005ED41917C8B300CF87EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86005ED31917C8B300CF87EF /* SystemConfiguration.framework */; };
+		86005ED61917CB2600CF87EF /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 86005ED51917CB2600CF87EF /* GoogleMaps.bundle */; };
 		86319BE91917419100004C12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86319BE81917419100004C12 /* Foundation.framework */; };
 		86319BEB1917419100004C12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86319BEA1917419100004C12 /* CoreGraphics.framework */; };
 		86319BED1917419100004C12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86319BEC1917419100004C12 /* UIKit.framework */; };
@@ -42,6 +65,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86005EA71917BB5900CF87EF /* 07-map-marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "07-map-marker@2x.png"; sourceTree = "<group>"; };
+		86005EA91917BB6C00CF87EF /* 103-map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map@2x.png"; sourceTree = "<group>"; };
+		86005EAB1917BB8400CF87EF /* glyphicons_020_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_020_home@2x.png"; sourceTree = "<group>"; };
+		86005EAD1917BBA000CF87EF /* glyphicons_195_circle_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_195_circle_info@2x.png"; sourceTree = "<group>"; };
+		86005EB01917BBC200CF87EF /* glyphicons_027_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_027_search@2x.png"; sourceTree = "<group>"; };
+		86005EB31917BBDD00CF87EF /* Map alt 48x48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map alt 48x48.png"; sourceTree = "<group>"; };
+		86005EB51917BBE900CF87EF /* Home 48x48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home 48x48.png"; sourceTree = "<group>"; };
+		86005EB71917BBF600CF87EF /* Info 48x48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Info 48x48.png"; sourceTree = "<group>"; };
+		86005EB91917BC0100CF87EF /* Search 48x48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search 48x48.png"; sourceTree = "<group>"; };
+		86005EBB1917C80000CF87EF /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		86005EBD1917C83A00CF87EF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		86005EBF1917C84000CF87EF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		86005EC11917C84600CF87EF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		86005EC31917C85000CF87EF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		86005EC51917C85600CF87EF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		86005EC71917C85C00CF87EF /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		86005EC91917C86F00CF87EF /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		86005ECB1917C88000CF87EF /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		86005ECD1917C89500CF87EF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		86005ECF1917C89B00CF87EF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		86005ED11917C8A700CF87EF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		86005ED31917C8B300CF87EF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		86005ED51917CB2600CF87EF /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		86319BE51917419100004C12 /* WSO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86319BE81917419100004C12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		86319BEA1917419100004C12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,9 +125,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86005ED41917C8B300CF87EF /* SystemConfiguration.framework in Frameworks */,
+				86005ED21917C8A700CF87EF /* QuartzCore.framework in Frameworks */,
+				86005ED01917C89B00CF87EF /* OpenGLES.framework in Frameworks */,
+				86005ECE1917C89500CF87EF /* libz.dylib in Frameworks */,
+				86005ECC1917C88000CF87EF /* libicucore.dylib in Frameworks */,
+				86005ECA1917C86F00CF87EF /* libc++.dylib in Frameworks */,
+				86005EC81917C85C00CF87EF /* ImageIO.framework in Frameworks */,
+				86005EC61917C85600CF87EF /* GLKit.framework in Frameworks */,
+				86005EC41917C85000CF87EF /* CoreText.framework in Frameworks */,
+				86005EC21917C84600CF87EF /* CoreLocation.framework in Frameworks */,
+				86005EC01917C84000CF87EF /* CoreData.framework in Frameworks */,
+				86005EBE1917C83A00CF87EF /* AVFoundation.framework in Frameworks */,
 				86319C321917488B00004C12 /* MapKit.framework in Frameworks */,
 				86319BEB1917419100004C12 /* CoreGraphics.framework in Frameworks */,
 				86319BED1917419100004C12 /* UIKit.framework in Frameworks */,
+				86005EBC1917C80000CF87EF /* GoogleMaps.framework in Frameworks */,
 				86319BE91917419100004C12 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,6 +158,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86005EAF1917BBA800CF87EF /* glyphicons */ = {
+			isa = PBXGroup;
+			children = (
+				86005EA71917BB5900CF87EF /* 07-map-marker@2x.png */,
+				86005EA91917BB6C00CF87EF /* 103-map@2x.png */,
+				86005EAB1917BB8400CF87EF /* glyphicons_020_home@2x.png */,
+				86005EAD1917BBA000CF87EF /* glyphicons_195_circle_info@2x.png */,
+				86005EB01917BBC200CF87EF /* glyphicons_027_search@2x.png */,
+			);
+			name = glyphicons;
+			sourceTree = "<group>";
+		};
+		86005EB21917BBC900CF87EF /* Helveticons */ = {
+			isa = PBXGroup;
+			children = (
+				86319C251917446000004C12 /* Map alt 32x32.png */,
+				86005EB31917BBDD00CF87EF /* Map alt 48x48.png */,
+				86319C271917448200004C12 /* Home 32x32.png */,
+				86005EB51917BBE900CF87EF /* Home 48x48.png */,
+				86319C2A191744F700004C12 /* Info 32x32.png */,
+				86005EB71917BBF600CF87EF /* Info 48x48.png */,
+				86319C2C1917455600004C12 /* Search 32x32.png */,
+				86005EB91917BC0100CF87EF /* Search 48x48.png */,
+			);
+			name = Helveticons;
+			sourceTree = "<group>";
+		};
 		86319BDC1917419100004C12 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +207,20 @@
 		86319BE71917419100004C12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				86005ED51917CB2600CF87EF /* GoogleMaps.bundle */,
+				86005ED31917C8B300CF87EF /* SystemConfiguration.framework */,
+				86005ED11917C8A700CF87EF /* QuartzCore.framework */,
+				86005ECF1917C89B00CF87EF /* OpenGLES.framework */,
+				86005ECD1917C89500CF87EF /* libz.dylib */,
+				86005ECB1917C88000CF87EF /* libicucore.dylib */,
+				86005EC91917C86F00CF87EF /* libc++.dylib */,
+				86005EC71917C85C00CF87EF /* ImageIO.framework */,
+				86005EC51917C85600CF87EF /* GLKit.framework */,
+				86005EC31917C85000CF87EF /* CoreText.framework */,
+				86005EC11917C84600CF87EF /* CoreLocation.framework */,
+				86005EBF1917C84000CF87EF /* CoreData.framework */,
+				86005EBD1917C83A00CF87EF /* AVFoundation.framework */,
+				86005EBB1917C80000CF87EF /* GoogleMaps.framework */,
 				86319C311917488B00004C12 /* MapKit.framework */,
 				86319BE81917419100004C12 /* Foundation.framework */,
 				86319BEA1917419100004C12 /* CoreGraphics.framework */,
@@ -183,10 +283,8 @@
 		86319C291917449200004C12 /* icons */ = {
 			isa = PBXGroup;
 			children = (
-				86319C251917446000004C12 /* Map alt 32x32.png */,
-				86319C271917448200004C12 /* Home 32x32.png */,
-				86319C2A191744F700004C12 /* Info 32x32.png */,
-				86319C2C1917455600004C12 /* Search 32x32.png */,
+				86005EAF1917BBA800CF87EF /* glyphicons */,
+				86005EB21917BBC900CF87EF /* Helveticons */,
 			);
 			name = icons;
 			sourceTree = "<group>";
@@ -269,12 +367,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				86319C2D1917455600004C12 /* Search 32x32.png in Resources */,
+				86005ED61917CB2600CF87EF /* GoogleMaps.bundle in Resources */,
 				86319C281917448200004C12 /* Home 32x32.png in Resources */,
+				86005EAC1917BB8400CF87EF /* glyphicons_020_home@2x.png in Resources */,
+				86005EA81917BB5900CF87EF /* 07-map-marker@2x.png in Resources */,
+				86005EB61917BBE900CF87EF /* Home 48x48.png in Resources */,
 				86319C2B191744F700004C12 /* Info 32x32.png in Resources */,
 				86319C261917446000004C12 /* Map alt 32x32.png in Resources */,
 				86319C041917419100004C12 /* Images.xcassets in Resources */,
 				86319BF31917419100004C12 /* InfoPlist.strings in Resources */,
+				86005EBA1917BC0100CF87EF /* Search 48x48.png in Resources */,
 				86319BFC1917419100004C12 /* Main.storyboard in Resources */,
+				86005EAE1917BBA000CF87EF /* glyphicons_195_circle_info@2x.png in Resources */,
+				86005EB11917BBC200CF87EF /* glyphicons_027_search@2x.png in Resources */,
+				86005EB41917BBDD00CF87EF /* Map alt 48x48.png in Resources */,
+				86005EAA1917BB6C00CF87EF /* 103-map@2x.png in Resources */,
+				86005EB81917BBF600CF87EF /* Info 48x48.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +490,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -413,6 +522,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -423,6 +533,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WSO/WSO-Prefix.pch";
 				INFOPLIST_FILE = "WSO/WSO-Info.plist";
@@ -436,6 +550,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WSO/WSO-Prefix.pch";
 				INFOPLIST_FILE = "WSO/WSO-Info.plist";

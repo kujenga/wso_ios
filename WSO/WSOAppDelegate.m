@@ -7,12 +7,16 @@
 //
 
 #import "WSOAppDelegate.h"
+#import <GoogleMaps/GoogleMaps.h>
 
 @implementation WSOAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    // Sets the API Key for the google maps framework
+    [GMSServices provideAPIKey:@"AIzaSyC9MPp9wEBDgSd-ICu15ly9rK58zfnWQoM"];
+    
     return YES;
 }
 							

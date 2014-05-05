@@ -6,12 +6,12 @@
 //  Copyright (c) 2014 Williams Students Online. All rights reserved.
 //
 
-#import <MapKit/MapKit.h>
+#import <GoogleMaps/GoogleMaps.h>
 #import "WSOMapViewController.h"
 
-@interface WSOMapViewController ()
-
-@property (weak, nonatomic) IBOutlet MKMapView *mapView;
+@interface WSOMapViewController () {
+    GMSMapView *mapView_;
+}
 
 @end
 
@@ -29,7 +29,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude: 42.713026
+                                                            longitude: -73.204940
+                                                                 zoom: 15];
+    mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+    mapView_.myLocationEnabled = YES;
+    self.view = mapView_;
+    
+    // Creates a marker in the center of the map.
+    GMSMarker *marker = [[GMSMarker alloc] init];
+    marker.position = CLLocationCoordinate2DMake(-33.86, 151.20);
+    marker.title = @"Sydney";
+    marker.snippet = @"Australia";
+    marker.map = mapView_;
 }
 
 - (void)didReceiveMemoryWarning
