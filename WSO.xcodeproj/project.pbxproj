@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86319BE91917419100004C12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86319BE81917419100004C12 /* Foundation.framework */; };
+		86319BEB1917419100004C12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86319BEA1917419100004C12 /* CoreGraphics.framework */; };
+		86319BED1917419100004C12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86319BEC1917419100004C12 /* UIKit.framework */; };
+		86319BF31917419100004C12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86319BF11917419100004C12 /* InfoPlist.strings */; };
+		86319BF51917419100004C12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86319BF41917419100004C12 /* main.m */; };
+		86319BF91917419100004C12 /* WSOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86319BF81917419100004C12 /* WSOAppDelegate.m */; };
+		86319BFC1917419100004C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86319BFA1917419100004C12 /* Main.storyboard */; };
+		86319BFF1917419100004C12 /* WSOFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86319BFE1917419100004C12 /* WSOFirstViewController.m */; };
+		86319C021917419100004C12 /* WSOSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86319C011917419100004C12 /* WSOSecondViewController.m */; };
+		86319C041917419100004C12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86319C031917419100004C12 /* Images.xcassets */; };
+		86319C0B1917419100004C12 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86319C0A1917419100004C12 /* XCTest.framework */; };
+		86319C0C1917419100004C12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86319BE81917419100004C12 /* Foundation.framework */; };
+		86319C0D1917419100004C12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86319BEC1917419100004C12 /* UIKit.framework */; };
+		86319C151917419100004C12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86319C131917419100004C12 /* InfoPlist.strings */; };
+		86319C171917419100004C12 /* WSOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86319C161917419100004C12 /* WSOTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86319C0E1917419100004C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86319BDD1917419100004C12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86319BE41917419100004C12;
+			remoteInfo = WSO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86319BE51917419100004C12 /* WSO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86319BE81917419100004C12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86319BEA1917419100004C12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86319BEC1917419100004C12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86319BF01917419100004C12 /* WSO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WSO-Info.plist"; sourceTree = "<group>"; };
+		86319BF21917419100004C12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86319BF41917419100004C12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86319BF61917419100004C12 /* WSO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WSO-Prefix.pch"; sourceTree = "<group>"; };
+		86319BF71917419100004C12 /* WSOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSOAppDelegate.h; sourceTree = "<group>"; };
+		86319BF81917419100004C12 /* WSOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSOAppDelegate.m; sourceTree = "<group>"; };
+		86319BFB1917419100004C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86319BFD1917419100004C12 /* WSOFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSOFirstViewController.h; sourceTree = "<group>"; };
+		86319BFE1917419100004C12 /* WSOFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSOFirstViewController.m; sourceTree = "<group>"; };
+		86319C001917419100004C12 /* WSOSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSOSecondViewController.h; sourceTree = "<group>"; };
+		86319C011917419100004C12 /* WSOSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSOSecondViewController.m; sourceTree = "<group>"; };
+		86319C031917419100004C12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		86319C091917419100004C12 /* WSOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86319C0A1917419100004C12 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		86319C121917419100004C12 /* WSOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WSOTests-Info.plist"; sourceTree = "<group>"; };
+		86319C141917419100004C12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86319C161917419100004C12 /* WSOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSOTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86319BE21917419100004C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86319BEB1917419100004C12 /* CoreGraphics.framework in Frameworks */,
+				86319BED1917419100004C12 /* UIKit.framework in Frameworks */,
+				86319BE91917419100004C12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86319C061917419100004C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86319C0B1917419100004C12 /* XCTest.framework in Frameworks */,
+				86319C0D1917419100004C12 /* UIKit.framework in Frameworks */,
+				86319C0C1917419100004C12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86319BDC1917419100004C12 = {
+			isa = PBXGroup;
+			children = (
+				86319BEE1917419100004C12 /* WSO */,
+				86319C101917419100004C12 /* WSOTests */,
+				86319BE71917419100004C12 /* Frameworks */,
+				86319BE61917419100004C12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86319BE61917419100004C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86319BE51917419100004C12 /* WSO.app */,
+				86319C091917419100004C12 /* WSOTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86319BE71917419100004C12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86319BE81917419100004C12 /* Foundation.framework */,
+				86319BEA1917419100004C12 /* CoreGraphics.framework */,
+				86319BEC1917419100004C12 /* UIKit.framework */,
+				86319C0A1917419100004C12 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86319BEE1917419100004C12 /* WSO */ = {
+			isa = PBXGroup;
+			children = (
+				86319BF71917419100004C12 /* WSOAppDelegate.h */,
+				86319BF81917419100004C12 /* WSOAppDelegate.m */,
+				86319BFA1917419100004C12 /* Main.storyboard */,
+				86319BFD1917419100004C12 /* WSOFirstViewController.h */,
+				86319BFE1917419100004C12 /* WSOFirstViewController.m */,
+				86319C001917419100004C12 /* WSOSecondViewController.h */,
+				86319C011917419100004C12 /* WSOSecondViewController.m */,
+				86319C031917419100004C12 /* Images.xcassets */,
+				86319BEF1917419100004C12 /* Supporting Files */,
+			);
+			path = WSO;
+			sourceTree = "<group>";
+		};
+		86319BEF1917419100004C12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86319BF01917419100004C12 /* WSO-Info.plist */,
+				86319BF11917419100004C12 /* InfoPlist.strings */,
+				86319BF41917419100004C12 /* main.m */,
+				86319BF61917419100004C12 /* WSO-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86319C101917419100004C12 /* WSOTests */ = {
+			isa = PBXGroup;
+			children = (
+				86319C161917419100004C12 /* WSOTests.m */,
+				86319C111917419100004C12 /* Supporting Files */,
+			);
+			path = WSOTests;
+			sourceTree = "<group>";
+		};
+		86319C111917419100004C12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86319C121917419100004C12 /* WSOTests-Info.plist */,
+				86319C131917419100004C12 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86319BE41917419100004C12 /* WSO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86319C1A1917419100004C12 /* Build configuration list for PBXNativeTarget "WSO" */;
+			buildPhases = (
+				86319BE11917419100004C12 /* Sources */,
+				86319BE21917419100004C12 /* Frameworks */,
+				86319BE31917419100004C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSO;
+			productName = WSO;
+			productReference = 86319BE51917419100004C12 /* WSO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86319C081917419100004C12 /* WSOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86319C1D1917419100004C12 /* Build configuration list for PBXNativeTarget "WSOTests" */;
+			buildPhases = (
+				86319C051917419100004C12 /* Sources */,
+				86319C061917419100004C12 /* Frameworks */,
+				86319C071917419100004C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86319C0F1917419100004C12 /* PBXTargetDependency */,
+			);
+			name = WSOTests;
+			productName = WSOTests;
+			productReference = 86319C091917419100004C12 /* WSOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86319BDD1917419100004C12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WSO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Williams Students Online";
+				TargetAttributes = {
+					86319C081917419100004C12 = {
+						TestTargetID = 86319BE41917419100004C12;
+					};
+				};
+			};
+			buildConfigurationList = 86319BE01917419100004C12 /* Build configuration list for PBXProject "WSO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86319BDC1917419100004C12;
+			productRefGroup = 86319BE61917419100004C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86319BE41917419100004C12 /* WSO */,
+				86319C081917419100004C12 /* WSOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86319BE31917419100004C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86319C041917419100004C12 /* Images.xcassets in Resources */,
+				86319BF31917419100004C12 /* InfoPlist.strings in Resources */,
+				86319BFC1917419100004C12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86319C071917419100004C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86319C151917419100004C12 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86319BE11917419100004C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86319C021917419100004C12 /* WSOSecondViewController.m in Sources */,
+				86319BFF1917419100004C12 /* WSOFirstViewController.m in Sources */,
+				86319BF91917419100004C12 /* WSOAppDelegate.m in Sources */,
+				86319BF51917419100004C12 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86319C051917419100004C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86319C171917419100004C12 /* WSOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86319C0F1917419100004C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86319BE41917419100004C12 /* WSO */;
+			targetProxy = 86319C0E1917419100004C12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86319BF11917419100004C12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86319BF21917419100004C12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		86319BFA1917419100004C12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86319BFB1917419100004C12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86319C131917419100004C12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86319C141917419100004C12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86319C181917419100004C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86319C191917419100004C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86319C1B1917419100004C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WSO/WSO-Prefix.pch";
+				INFOPLIST_FILE = "WSO/WSO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86319C1C1917419100004C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WSO/WSO-Prefix.pch";
+				INFOPLIST_FILE = "WSO/WSO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		86319C1E1917419100004C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WSO.app/WSO";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WSO/WSO-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WSOTests/WSOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		86319C1F1917419100004C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WSO.app/WSO";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WSO/WSO-Prefix.pch";
+				INFOPLIST_FILE = "WSOTests/WSOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86319BE01917419100004C12 /* Build configuration list for PBXProject "WSO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86319C181917419100004C12 /* Debug */,
+				86319C191917419100004C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86319C1A1917419100004C12 /* Build configuration list for PBXNativeTarget "WSO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86319C1B1917419100004C12 /* Debug */,
+				86319C1C1917419100004C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86319C1D1917419100004C12 /* Build configuration list for PBXNativeTarget "WSOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86319C1E1917419100004C12 /* Debug */,
+				86319C1F1917419100004C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86319BDD1917419100004C12 /* Project object */;
+}
