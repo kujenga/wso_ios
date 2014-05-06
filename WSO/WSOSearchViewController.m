@@ -7,6 +7,7 @@
 //
 
 #import "WSOSearchViewController.h"
+#import "WSOFacebookTableViewCell.h"
 
 #define imageTag 0
 #define nameTag 1
@@ -31,6 +32,8 @@
     self.resultsTableView.delegate = self;
     
     self.searchBar.delegate = self;
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -51,7 +54,7 @@
 }
 
 -(UITableViewCell*) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PersonCell"];
+    WSOFacebookTableViewCell *cell = (WSOFacebookTableViewCell*)[tableView dequeueReusableCellWithIdentifier:@"PersonCell"];
     
     UIImageView *imageView = (UIImageView*)[cell.contentView viewWithTag:imageTag];
     UIImage * faceImage = [UIImage imageNamed:@"07-map-marker@2x"];
@@ -68,7 +71,7 @@
 # pragma mark Delegate methods
 
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 @end

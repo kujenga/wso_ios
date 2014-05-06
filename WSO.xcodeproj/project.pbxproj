@@ -53,6 +53,7 @@
 		86319C2D1917455600004C12 /* Search 32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 86319C2C1917455600004C12 /* Search 32x32.png */; };
 		86319C30191746E200004C12 /* WSOTrakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86319C2F191746E200004C12 /* WSOTrakViewController.m */; };
 		86319C321917488B00004C12 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86319C311917488B00004C12 /* MapKit.framework */; };
+		86531C6C19191D3D008D3DBB /* WSOFacebookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86531C6B19191D3D008D3DBB /* WSOFacebookTableViewCell.m */; };
 		86909B151918A24F00314C48 /* Silhouette.png in Resources */ = {isa = PBXBuildFile; fileRef = 86909B141918A24F00314C48 /* Silhouette.png */; };
 		86909B181918AB6E00314C48 /* WSOProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86909B171918AB6E00314C48 /* WSOProfileViewController.m */; };
 /* End PBXBuildFile section */
@@ -122,6 +123,8 @@
 		86319C2E191746E200004C12 /* WSOTrakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOTrakViewController.h; sourceTree = "<group>"; };
 		86319C2F191746E200004C12 /* WSOTrakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOTrakViewController.m; sourceTree = "<group>"; };
 		86319C311917488B00004C12 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		86531C6A19191D3D008D3DBB /* WSOFacebookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOFacebookTableViewCell.h; sourceTree = "<group>"; };
+		86531C6B19191D3D008D3DBB /* WSOFacebookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOFacebookTableViewCell.m; sourceTree = "<group>"; };
 		86909B141918A24F00314C48 /* Silhouette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Silhouette.png; sourceTree = "<group>"; };
 		86909B161918AB6E00314C48 /* WSOProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOProfileViewController.h; sourceTree = "<group>"; };
 		86909B171918AB6E00314C48 /* WSOProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOProfileViewController.m; sourceTree = "<group>"; };
@@ -248,6 +251,8 @@
 				86319BFE1917419100004C12 /* WSOHomeViewController.m */,
 				86319C001917419100004C12 /* WSOSearchViewController.h */,
 				86319C011917419100004C12 /* WSOSearchViewController.m */,
+				86531C6A19191D3D008D3DBB /* WSOFacebookTableViewCell.h */,
+				86531C6B19191D3D008D3DBB /* WSOFacebookTableViewCell.m */,
 				86909B161918AB6E00314C48 /* WSOProfileViewController.h */,
 				86909B171918AB6E00314C48 /* WSOProfileViewController.m */,
 				86319C201917438700004C12 /* WSOMapViewController.h */,
@@ -417,6 +422,7 @@
 				86909B181918AB6E00314C48 /* WSOProfileViewController.m in Sources */,
 				86319C221917438700004C12 /* WSOMapViewController.m in Sources */,
 				86319C021917419100004C12 /* WSOSearchViewController.m in Sources */,
+				86531C6C19191D3D008D3DBB /* WSOFacebookTableViewCell.m in Sources */,
 				86319BFF1917419100004C12 /* WSOHomeViewController.m in Sources */,
 				86319BF91917419100004C12 /* WSOAppDelegate.m in Sources */,
 				86319C30191746E200004C12 /* WSOTrakViewController.m in Sources */,
