@@ -9,6 +9,9 @@
 #import "WSOSearchViewController.h"
 #import "WSOFacebookTableViewCell.h"
 
+#import <Foundation/NSXMLParser.h>
+#import "AFNetworking.h"
+
 #define imageTag 0
 #define nameTag 1
 #define unixTag 2
@@ -33,7 +36,7 @@
     
     self.searchBar.delegate = self;
     
-    
+    [self downloadTest:@"Aaron"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -41,6 +44,22 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+# pragma mark - Web access methods
+
+- (void) downloadTest:(NSString*) param {
+    
+    
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    [manager GET:[NSString stringWithFormat:@"http://wso.williams.edu/facebook?search=%@",param] parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        NSLog(@"JSON: %@", responseObject);
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"Error: %@", error);
+    }];
+    
+    
+}
+
 
 # pragma mark - UITableView
 # pragma mark Data Source methods
@@ -56,8 +75,8 @@
 -(UITableViewCell*) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     WSOFacebookTableViewCell *cell = (WSOFacebookTableViewCell*)[tableView dequeueReusableCellWithIdentifier:@"PersonCell"];
     
-    UIImageView *imageView = (UIImageView*)[cell.contentView viewWithTag:imageTag];
-    UIImage * faceImage = [UIImage imageNamed:@"07-map-marker@2x"];
+    //UIImageView *imageView = (UIImageView*)[cell.contentView viewWithTag:imageTag];
+    //UIImage * faceImage = [UIImage imageNamed:@"07-map-marker@2x"];
     //imageView.image = faceImage;
     UILabel * name = (UILabel*)[cell.contentView viewWithTag:nameTag];
     name.text = @"Williams Student";

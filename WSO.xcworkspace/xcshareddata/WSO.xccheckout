@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7624B4B8-4081-4F9C-B4AB-1C02BA61F161</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WSO</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>319EA42D-C66E-4BA8-A34B-D76CD9FEBC8F</key>
+		<string>ssh://github.com/kujenga/wso_ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WSO.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>319EA42D-C66E-4BA8-A34B-D76CD9FEBC8F</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/kujenga/wso_ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>319EA42D-C66E-4BA8-A34B-D76CD9FEBC8F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>319EA42D-C66E-4BA8-A34B-D76CD9FEBC8F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WSO</string>
+		</dict>
+	</array>
+</dict>
+</plist>
