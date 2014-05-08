@@ -47,19 +47,33 @@
 
 # pragma mark - Web access methods
 
-- (void) downloadTest:(NSString*) param {
+- (void) downloadTest:(NSString*) name {
     
+    //NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://wso.williams.edu/facebook?search=Aaron"]];
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    [manager GET:[NSString stringWithFormat:@"http://wso.williams.edu/facebook?search=%@",param] parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        NSLog(@"JSON: %@", responseObject);
+    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    NSLog(@"Acceptable Content Types:\n%@", manager.responseSerializer.acceptableContentTypes);
+    
+    /*
+    AFHTTPRequestOperation * op = [manager HTTPRequestOperationWithRequest:request success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        NSLog(@"JSON: %@", operation.responseObject);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        NSLog(@"Error: %@", error);
+        NSLog(@"Error: %@\n\nResponseObject:%@", error,operation.responseData);
+    }];
+    */
+    
+    
+    
+    [manager GET:[NSString stringWithFormat:@"http://wso.williams.edu/facebook?Aaron"] parameters:nil
+         success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        NSLog(@"JSON: %@", operation.responseObject);
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"Error: %@\n\nResponseObject:%@", error,operation.responseObject);
     }];
     
     
 }
-
 
 # pragma mark - UITableView
 # pragma mark Data Source methods
