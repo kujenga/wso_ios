@@ -57,6 +57,7 @@
 		86846886191BD8B2009C2FDF /* AFHTMLResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 86846885191BD8B2009C2FDF /* AFHTMLResponseSerializer.m */; };
 		86909B151918A24F00314C48 /* Silhouette.png in Resources */ = {isa = PBXBuildFile; fileRef = 86909B141918A24F00314C48 /* Silhouette.png */; };
 		86909B181918AB6E00314C48 /* WSOProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86909B171918AB6E00314C48 /* WSOProfileViewController.m */; };
+		86C20654192A3E560099E922 /* WSOTempSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C20653192A3E560099E922 /* WSOTempSearchViewController.m */; };
 		FFD42EAB530C4421961D460F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F047D532714FF0BC3EB874 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -133,6 +134,8 @@
 		86909B141918A24F00314C48 /* Silhouette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Silhouette.png; sourceTree = "<group>"; };
 		86909B161918AB6E00314C48 /* WSOProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOProfileViewController.h; sourceTree = "<group>"; };
 		86909B171918AB6E00314C48 /* WSOProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOProfileViewController.m; sourceTree = "<group>"; };
+		86C20652192A3E560099E922 /* WSOTempSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOTempSearchViewController.h; sourceTree = "<group>"; };
+		86C20653192A3E560099E922 /* WSOTempSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOTempSearchViewController.m; sourceTree = "<group>"; };
 		AF78A5BB66C34FF7A5034C1F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -258,6 +261,8 @@
 				86319BFA1917419100004C12 /* Main.storyboard */,
 				86319BFD1917419100004C12 /* WSOHomeViewController.h */,
 				86319BFE1917419100004C12 /* WSOHomeViewController.m */,
+				86C20652192A3E560099E922 /* WSOTempSearchViewController.h */,
+				86C20653192A3E560099E922 /* WSOTempSearchViewController.m */,
 				86319C001917419100004C12 /* WSOSearchViewController.h */,
 				86319C011917419100004C12 /* WSOSearchViewController.m */,
 				86531C6A19191D3D008D3DBB /* WSOFacebookTableViewCell.h */,
@@ -473,6 +478,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86C20654192A3E560099E922 /* WSOTempSearchViewController.m in Sources */,
 				86909B181918AB6E00314C48 /* WSOProfileViewController.m in Sources */,
 				86319C221917438700004C12 /* WSOMapViewController.m in Sources */,
 				86319C021917419100004C12 /* WSOSearchViewController.m in Sources */,
