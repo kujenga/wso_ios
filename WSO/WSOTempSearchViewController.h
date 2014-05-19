@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WSOTempSearchViewController : UIViewController
+@interface WSOTempSearchViewController : UIViewController <UIWebViewDelegate>
 
 @end
