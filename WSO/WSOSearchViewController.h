@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 
-@interface WSOSearchViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate>
+@interface WSOSearchViewController : UITableViewController <UITableViewDataSource,
+                                                            UITableViewDelegate,
+                                                            UISearchBarDelegate,
+                                                            UIScrollViewDelegate>
 
 @end

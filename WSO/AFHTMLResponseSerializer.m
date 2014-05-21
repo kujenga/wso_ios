@@ -10,6 +10,26 @@
 
 @implementation AFHTMLResponseSerializer
 
+
+- (instancetype)init {
+    self = [super init];
+    if (!self) {
+        return nil;
+    }
+    
+    self.acceptableContentTypes = [NSSet setWithObjects:@"text/html", nil];
+    
+    return self;
+}
+
+
+- (id)responseObjectForResponse:(NSURLResponse *)response
+                           data:(NSData *)data
+                          error:(NSError *__autoreleasing *)error
+{
+    return [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
+}
+
 /*
 
 -(id)responseObjectForResponse:(NSURLResponse *)response
