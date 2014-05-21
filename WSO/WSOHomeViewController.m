@@ -8,6 +8,7 @@
 
 #import "WSOHomeViewController.h"
 #import "WSOInfoViewController.h"
+#import "WSOAppDelegate.h"
 
 @interface WSOHomeViewController () {
     NSIndexPath *selectedPath;
@@ -34,6 +35,8 @@
                         @"Rides":@[@"heading to albany",@"roadtrip to mexico!"]};
     
     self.CellIdentifier = @"Cell";
+    
+    [self.tabBarController.tabBar setTintColor:WSO_PURPLE];
 }
 
 - (void)didReceiveMemoryWarning
@@ -77,6 +80,16 @@
     // manual segue is triggered in this way to ensure that the selected row is stored before the perpareForSegue method is called
     // this ensures that the proper info is passed along
     [self performSegueWithIdentifier:@"ShowInfo" sender:self];
+}
+
+- (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section
+{
+    view.tintColor = WSO_PURPLE;
+    
+    // if you have index/header text in your tableview change your index text color
+    UITableViewHeaderFooterView *headerIndexText = (UITableViewHeaderFooterView *)view;
+    [headerIndexText.textLabel setTextColor:[UIColor whiteColor]];
+    
 }
 
 # pragma mark - Navigation

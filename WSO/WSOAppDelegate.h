@@ -13,4 +13,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong, atomic) UIColor *WSOPurple;
+#define WSO_PURPLE ((WSOAppDelegate*)[UIApplication sharedApplication].delegate).WSOPurple
+
 @end

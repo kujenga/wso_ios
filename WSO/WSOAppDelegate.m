@@ -17,6 +17,8 @@
     // Sets the API Key for the google maps framework
     [GMSServices provideAPIKey:@"AIzaSyC9MPp9wEBDgSd-ICu15ly9rK58zfnWQoM"];
     
+    self.WSOPurple = [UIColor colorWithRed:(111.0/256.0) green:(74.0/256.0) blue:(147.0/256.0) alpha:1.0];
+    
     return YES;
 }
 							

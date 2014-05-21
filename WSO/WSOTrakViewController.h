@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WSOTrakViewController : UIViewController
+@interface WSOTrakViewController : UITableViewController <UITableViewDataSource,UITableViewDelegate>
 
 @end

@@ -21,7 +21,6 @@
 @interface WSOSearchViewController ()
 
 @property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
-@property (weak, nonatomic) IBOutlet UITableView *resultsTableView;
 
 @end
 
@@ -31,8 +30,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.resultsTableView.dataSource = self;
-    self.resultsTableView.delegate = self;
+    self.tableView.dataSource = self;
+    self.tableView.delegate = self;
     
     self.searchBar.delegate = self;
     
@@ -105,6 +104,10 @@
 
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+-(CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 65.0;
 }
 
 @end
