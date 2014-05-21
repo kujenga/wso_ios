@@ -12,6 +12,7 @@
 #import <Foundation/NSXMLParser.h>
 #import "AFNetworking.h"
 #import "AFHTMLResponseSerializer.h"
+#import "GDataXMLNode.h"
 
 #define imageTag 0
 #define nameTag 1
@@ -22,6 +23,7 @@
 @interface WSOSearchViewController ()
 
 @property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
+@property (strong, atomic) NSArray *results;
 
 @end
 
@@ -49,8 +51,6 @@
 
 - (void) downloadTest:(NSString*) name {
     
-    //NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://wso.williams.edu/facebook?search=Aaron"]];
-    
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     manager.responseSerializer = [AFHTMLResponseSerializer serializer];
     NSLog(@"Acceptable Content Types:\n%@", manager.responseSerializer.acceptableContentTypes);
@@ -60,10 +60,17 @@
                     @"search": name}
           success:^(AFHTTPRequestOperation *operation, id responseObject) {
               NSLog(@"\n\n\nPOST:\n %@", operation.responseObject);
+              [self parseSearchResults:operation.responseObject];
           }
           failure:^(AFHTTPRequestOperation *operation, NSError *error) {
               NSLog(@"Error: %@\n\nResponseObject:%@", error,operation.responseObject);
-          }];    
+          }];
+}
+
+-(void)parseSearchResults:(NSString*)results {
+    GDataXMLDocument *doc = [[GDataXMLDocument alloc] initWithHTMLString:results encoding:NSASCIIStringEncoding error:nil];
+    NSArray *names = [doc nodesForXPath:@"//html/body/article/section/div/aside[3]/div[2]" error:nil];
+    NSLog(@"\n\nnames for XPath: %@",names);
 }
 
 #pragma mark UISearchBar delegate
@@ -73,7 +80,8 @@
 }
 
 -(void) searchBarSearchButtonClicked:(UISearchBar *)searchBar {
-    
+    [self downloadTest:searchBar.text];
+    [searchBar resignFirstResponder];
 }
 
 # pragma mark - UITableView

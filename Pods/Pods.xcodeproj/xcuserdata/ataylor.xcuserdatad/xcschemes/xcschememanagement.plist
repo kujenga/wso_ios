@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-GDataXML-HTML.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ParseKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>17BA3233F60D41678C6F81EE</key>
+		<key>8479188960224914BD46A524</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>268378C4538E4D56BAE8606D</key>
+		<key>9CCF6DB63AAA440588CF36B1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D45AF22B8F4F4C47A70F3EB3</key>
+		<key>B4173CD2704B45CF801BB322</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CDE7E7737E0C4F9592AC510F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

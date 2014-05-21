@@ -18,14 +18,17 @@ PODS:
   - AFNetworking/UIKit (2.2.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - GDataXML-HTML (1.1.0)
   - ParseKit (0.7)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.2.3)
+  - GDataXML-HTML (~> 1.1.0)
   - ParseKit (~> 0.7)
 
 SPEC CHECKSUMS:
-  AFNetworking: ae513199cca79e9d7af2708ccabe2ed075550c42
-  ParseKit: 3e29375d37e10b468fa2298ad7304a10f553bcef
+  AFNetworking: 47947303319594706f48a55185ea95a95159ab94
+  GDataXML-HTML: 3f6537789b55edbc4d83283566f9779abd9680bc
+  ParseKit: 227201c416a547ce6f3bc6b279b6ae69a2e28c35
 
 COCOAPODS: 0.32.1
