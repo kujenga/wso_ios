@@ -1,20 +1,24 @@
 //
-//  WSOTempSearchViewController.m
+//  WSOInfoViewController.m
 //  WSO
 //
-//  Created by Aaron Taylor on 5/19/14.
+//  Created by Aaron Taylor on 5/20/14.
 //  Copyright (c) 2014 Williams Students Online. All rights reserved.
 //
 
-#import "WSOTempSearchViewController.h"
+#import "WSOInfoViewController.h"
 
-@interface WSOTempSearchViewController ()
+@interface WSOInfoViewController () {
+    NSString * title;
+    NSString * body;
+}
 
-@property (weak, nonatomic) IBOutlet UIWebView *webView;
+@property (weak, nonatomic) IBOutlet UILabel *titleText;
+@property (weak, nonatomic) IBOutlet UITextView *bodyText;
 
 @end
 
-@implementation WSOTempSearchViewController
+@implementation WSOInfoViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,16 +33,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    _webView.delegate = self;
+
 }
 
-- (void) viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    NSString *fullURL = @"http://wso.williams.edu/facebook/";
-    NSURL *url = [NSURL URLWithString:fullURL];
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    [_webView loadRequest:requestObj];
+-(void)viewWillAppear:(BOOL)animated {
+    self.titleText.text = title;
 }
 
 - (void)didReceiveMemoryWarning
@@ -47,7 +46,11 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
+-(void)setInfo:(NSString *)info {
+    title = info;
+}
+
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -56,6 +59,6 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
-*/
+
 
 @end

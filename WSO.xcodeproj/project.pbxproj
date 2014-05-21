@@ -54,6 +54,7 @@
 		86319C30191746E200004C12 /* WSOTrakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86319C2F191746E200004C12 /* WSOTrakViewController.m */; };
 		86319C321917488B00004C12 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86319C311917488B00004C12 /* MapKit.framework */; };
 		86531C6C19191D3D008D3DBB /* WSOFacebookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86531C6B19191D3D008D3DBB /* WSOFacebookTableViewCell.m */; };
+		865A7B9A192C24B700AFA16A /* WSOInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865A7B99192C24B700AFA16A /* WSOInfoViewController.m */; };
 		86846886191BD8B2009C2FDF /* AFHTMLResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 86846885191BD8B2009C2FDF /* AFHTMLResponseSerializer.m */; };
 		86909B151918A24F00314C48 /* Silhouette.png in Resources */ = {isa = PBXBuildFile; fileRef = 86909B141918A24F00314C48 /* Silhouette.png */; };
 		86909B181918AB6E00314C48 /* WSOProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86909B171918AB6E00314C48 /* WSOProfileViewController.m */; };
@@ -66,7 +67,6 @@
 		86BF813E192A540400BEB67D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86BF812E192A540400BEB67D /* Icon@2x.png */; };
 		86BF813F192A540400BEB67D /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 86BF812F192A540400BEB67D /* iTunesArtwork.png */; };
 		86BF8140192A540400BEB67D /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86BF8130192A540400BEB67D /* iTunesArtwork@2x.png */; };
-		86C20654192A3E560099E922 /* WSOTempSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C20653192A3E560099E922 /* WSOTempSearchViewController.m */; };
 		FFD42EAB530C4421961D460F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F047D532714FF0BC3EB874 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -138,6 +138,8 @@
 		86319C311917488B00004C12 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		86531C6A19191D3D008D3DBB /* WSOFacebookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOFacebookTableViewCell.h; sourceTree = "<group>"; };
 		86531C6B19191D3D008D3DBB /* WSOFacebookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOFacebookTableViewCell.m; sourceTree = "<group>"; };
+		865A7B98192C24B700AFA16A /* WSOInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOInfoViewController.h; sourceTree = "<group>"; };
+		865A7B99192C24B700AFA16A /* WSOInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOInfoViewController.m; sourceTree = "<group>"; };
 		86846884191BD8B2009C2FDF /* AFHTMLResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTMLResponseSerializer.h; sourceTree = "<group>"; };
 		86846885191BD8B2009C2FDF /* AFHTMLResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTMLResponseSerializer.m; sourceTree = "<group>"; };
 		86909B141918A24F00314C48 /* Silhouette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Silhouette.png; sourceTree = "<group>"; };
@@ -152,8 +154,6 @@
 		86BF812E192A540400BEB67D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../graphics/icon/ios7/Icon@2x.png"; sourceTree = "<group>"; };
 		86BF812F192A540400BEB67D /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = ../graphics/icon/ios7/iTunesArtwork.png; sourceTree = "<group>"; };
 		86BF8130192A540400BEB67D /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "../graphics/icon/ios7/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
-		86C20652192A3E560099E922 /* WSOTempSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOTempSearchViewController.h; sourceTree = "<group>"; };
-		86C20653192A3E560099E922 /* WSOTempSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOTempSearchViewController.m; sourceTree = "<group>"; };
 		AF78A5BB66C34FF7A5034C1F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -295,8 +295,8 @@
 				86319BFA1917419100004C12 /* Main.storyboard */,
 				86319BFD1917419100004C12 /* WSOHomeViewController.h */,
 				86319BFE1917419100004C12 /* WSOHomeViewController.m */,
-				86C20652192A3E560099E922 /* WSOTempSearchViewController.h */,
-				86C20653192A3E560099E922 /* WSOTempSearchViewController.m */,
+				865A7B98192C24B700AFA16A /* WSOInfoViewController.h */,
+				865A7B99192C24B700AFA16A /* WSOInfoViewController.m */,
 				86319C001917419100004C12 /* WSOSearchViewController.h */,
 				86319C011917419100004C12 /* WSOSearchViewController.m */,
 				86531C6A19191D3D008D3DBB /* WSOFacebookTableViewCell.h */,
@@ -525,13 +525,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86C20654192A3E560099E922 /* WSOTempSearchViewController.m in Sources */,
 				86909B181918AB6E00314C48 /* WSOProfileViewController.m in Sources */,
 				86319C221917438700004C12 /* WSOMapViewController.m in Sources */,
 				86319C021917419100004C12 /* WSOSearchViewController.m in Sources */,
 				86531C6C19191D3D008D3DBB /* WSOFacebookTableViewCell.m in Sources */,
 				86319BFF1917419100004C12 /* WSOHomeViewController.m in Sources */,
 				86319BF91917419100004C12 /* WSOAppDelegate.m in Sources */,
+				865A7B9A192C24B700AFA16A /* WSOInfoViewController.m in Sources */,
 				86319C30191746E200004C12 /* WSOTrakViewController.m in Sources */,
 				86319BF51917419100004C12 /* main.m in Sources */,
 				86846886191BD8B2009C2FDF /* AFHTMLResponseSerializer.m in Sources */,

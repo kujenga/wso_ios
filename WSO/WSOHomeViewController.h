@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WSOHomeViewController : UIViewController
+@interface WSOHomeViewController : UITableViewController <UITableViewDataSource,UITableViewDelegate>
 
 @end
